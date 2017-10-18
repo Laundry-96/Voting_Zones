@@ -3,14 +3,18 @@
 \usepackage{indentfirst}
 \usepackage{scrextend}
 \usepackage{changepage}
-
+\usepackage{array,multirow}
+\usepackage{graphicx}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \begin{document}
 
 \begin{titlepage}
 	\title{Gerrymander Application: System Requirements}
 	\author{Hyreus LTD.}
-	\date{October 12, 2017}
+	\date{October 19, 2017}
 	\maketitle
 	\thispagestyle{empty}
 \end{titlepage}
@@ -78,7 +82,7 @@ Since the founding of the United States, gerrymandering has been used in order t
 
 \begin{addmargin}[4em]{0em}
 
-This application will be connected to a database that will hold voter information on the state of Maryland. The database will be created to allow room for more states to be added, but we will be specifically be focusing on the state of Maryland. Using research on gerrymandering, we will use Python coding to not only to efficiently gerrymander a state, but to display it on ***Google Earth(or google maps, don't remember). Once displayed, the user will be given the option to use 2 sliders that will greatly effect the gerrymander display. The first slider will decide whether the user wants the map to be more or less gerrymandered. The second slider will decide whether you want the gerrymander to favor republicans or democrats. 
+This application will be connected to a database that will hold voter information on the state of Maryland. The database will be created to allow room for more states to be added, but we will be specifically be focusing on the state of Maryland. Using research on gerrymandering, we will use Python coding to not only to efficiently gerrymander a state, but to display it on Google Earth. Once displayed, the user will be given the option to use 2 sliders that will greatly effect the gerrymander display. The first slider will decide whether the user wants the map to be more or less gerrymandered. The second slider will decide whether you want the gerrymander to favor republicans or democrats. 
 
 \end{addmargin}
 
@@ -92,7 +96,68 @@ This application will be connected to a database that will hold voter informatio
 
 \begin{addmargin}[4em]{0em}
 
-[Enter Functional Requirements Here]
+
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.8]{Slider1.png}
+\end{center}
+
+
+
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.8]{Slider2.png}
+\end{center}
+
+
+%\begin{table}[h]
+%\centering
+%\setlength\tabcolsep{3pt}
+%\setlength\extrarowheight{2pt}
+
+%\begin{tabular}{| l |  L{6cm}  L{5cm} |}
+%\hline
+%	Number &  1 & \\ \hline
+%	Name &  Slider & \\ \hline
+%	Summary &  This slider &   \\ \hline
+%	Priority &  5  &\\ \hline
+%	Preconditions &  Must have gerrymandering algorithm working  & \\ \hline
+%	Postconditions &  User will be able to determine amount of gerrymandering  &  \\ \hline
+%	Primary Actor &  User &  \\ \hline
+%	Secondary Actors &  Database and User Interface & \\ \hline
+%		Main Scenario: & \multicolumn{1}{ c | }{Step} & Actions \\ \hline 
+%		& \multicolumn{1}{ l | }{1} & 'steps of use case from trigger to goal' \\ \hline 
+%		& \multicolumn{1}{ l | }{2} & 'steps of use case from trigger to goal' \\ \hline 
+%		& \multicolumn{1}{ l | }{3} & 'steps of use case from trigger to goal' \\ \hline 
+		
+%		Extensions: & \multicolumn{1}{ c | }{Step} & Branching Action \\ \hline 
+%		& \multicolumn{1}{ l | }{1a} & 'condition causing branching' \\ \hline 
+%		& \multicolumn{1}{ l | }{1b} & 'condition causing branching' \\ \hline 
+%		& \multicolumn{1}{ l | }{1c} & 'condition causing branching' \\ \hline 
+		%& 1) blah 1 & jjj \  \\ \hline
+		%& 2) blah 2 & jjj \  \\ \hline
+		%& 3) blah 3 & jjj \  \\ \hline
+
+%	Open Issues & Open issues go here &  \\ \hline
+%\end{tabular}
+%\end{table}
+
+%\begin{table}
+%\centering
+%\caption{Functional Requirement : Example 1}
+
+%\begin{tabular}{ | r | r |} \hline
+%Number & 1 \\ \hline
+%Name & Name1 \\ \hline
+%Summary & QuickDescription \\ \hline
+%Priority & 1-5 \\ \hline
+%Preconditions & PreCond. \\ \hline
+%Postconditions & PostCond. \\ \hline
+%Primary Actor & Actor1 \\ \hline
+%Secondary Actors & Actors etc \\ \hline
+
+%\end{tabular}
+%\end{table}
 
 \end{addmargin}
 
@@ -202,10 +267,46 @@ An electronic file containing the following:
 
 \section{Appendix A - Agreement Between Customer and Contractor}\label{sec:apendixA}
 
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+
+Check attached document.
+
+\end{addmargin}
+
 \section{Appendix B - Team Review Sign-Off}\label{sec:appendixB}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+
+There are no comments as there were no disagreements. Check attached document.
+
+\end{addmargin}
 
 \section{Appendix C - Document Contributions}\label{sec:appendixC}
 
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+
+\begin{enumerate}
+
+\item Jamal Savoy : I took ownership over this document so a bulk of the document is my work. After learning LaTex, I created the outline and began filling it out with the information our team discussed with the customer at our first meeting. I worked on all of the sections and would estimate I did around 90\% of the document.
+
+\item Austin DeLauney : 
+
+\item Ben Kolarik : 
+
+\item Brad Harmening : 
+
+\item Damien Overton : 
+
+\item Dylan Demchuk : 
+
+\end{enumerate}
+\end{addmargin}
 
 
 \end{document}
