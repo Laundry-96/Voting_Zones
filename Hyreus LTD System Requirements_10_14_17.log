@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 OCT 2017 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 OCT 2017 10:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Hyerus LTD System Requirements.tex"
-(./Hyerus LTD System Requirements.tex
+**"Hyreus LTD System Requirements_10_14_17.tex"
+(./Hyreus LTD System Requirements_10_14_17.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
@@ -99,21 +99,21 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen106
 \Gin@req@width=\dimen107
 )
-(./Hyerus LTD System Requirements.aux)
-\openout1 = `"Hyerus LTD System Requirements.aux"'.
+(./Hyreus LTD System Requirements_10_14_17.aux)
+\openout1 = `"Hyreus LTD System Requirements_10_14_17.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -177,153 +177,85 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
-
-<Logo.png, id=1, 1621.05624pt x 334.24875pt>
-File: Logo.png Graphic file (type png)
- <use Logo.png>
-Package pdftex.def Info: Logo.png used on input line 23.
-(pdftex.def)             Requested size: 405.26308pt x 83.56198pt.
-
-Overfull \hbox (5.57979pt too wide) in paragraph at lines 22--24
- |  [] 
- []
-
 [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logo.
-png>] (./Hyerus LTD System Requirements.toc
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./Hyreus LTD System Requirements_10_14_17.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
 )
 \tf@toc=\write3
-\openout3 = `"Hyerus LTD System Requirements.toc"'.
+\openout3 = `"Hyreus LTD System Requirements_10_14_17.toc"'.
 
  [1]
-<Program.png, id=17, 2895.81876pt x 3181.8875pt>
-File: Program.png Graphic file (type png)
- <use Program.png>
-Package pdftex.def Info: Program.png used on input line 97.
-(pdftex.def)             Requested size: 434.35408pt x 477.26254pt.
+Overfull \hbox (89.9859pt too wide) in paragraph at lines 82--83
+[]\OT1/cmr/m/n/10 QGIS De-vel-op-ment Team, QJIS, (2002), GitHub repos-i-tory, 
+https://github.com/qgis/QGIS 
+ []
 
-Overfull \hbox (34.67079pt too wide) in paragraph at lines 96--98
- |  [] 
+
+Overfull \hbox (78.05034pt too wide) in paragraph at lines 86--87
+\OT1/cmr/m/it/10 ing Unit Counts - Blocks \OT1/cmr/m/n/10 [Data File]. Re-triev
+ed from https://www.census.gov/geo/maps-
  []
 
 [1
 
 
-] <Slider1.png, id=21, 1455.4375pt x 912.40875pt>
+] <Slider1.png, id=18, 486.81876pt x 305.14pt>
 File: Slider1.png Graphic file (type png)
  <use Slider1.png>
-Package pdftex.def Info: Slider1.png used on input line 113.
-(pdftex.def)             Requested size: 363.85849pt x 228.10162pt.
+Package pdftex.def Info: Slider1.png used on input line 131.
+(pdftex.def)             Requested size: 389.45554pt x 244.11232pt.
 
-Overfull \hbox (4.17526pt too wide) in paragraph at lines 112--114
+Overfull \hbox (29.77231pt too wide) in paragraph at lines 130--132
  |  [] 
  []
 
-[2 <./Program.png>] <Slider2.png, id=26, 1461.46pt x 916.42375pt>
+<Slider2.png, id=20, 486.81876pt x 305.14pt>
 File: Slider2.png Graphic file (type png)
+ <use Slider2.png>
+Package pdftex.def Info: Slider2.png used on input line 138.
+(pdftex.def)             Requested size: 389.45554pt x 244.11232pt.
 
-<use Slider2.png>
-Package pdftex.def Info: Slider2.png used on input line 118.
-(pdftex.def)             Requested size: 365.3641pt x 229.10538pt.
-
-Overfull \hbox (5.68088pt too wide) in paragraph at lines 117--119
+Overfull \hbox (29.77231pt too wide) in paragraph at lines 137--139
  |  [] 
  []
 
-<Slider3.png, id=27, 1508.63625pt x 941.5175pt>
-File: Slider3.png Graphic file (type png)
- <use Slider3.png>
-Package pdftex.def Info: Slider3.png used on input line 123.
-(pdftex.def)             Requested size: 377.15814pt x 235.3788pt.
-
-Overfull \hbox (17.47491pt too wide) in paragraph at lines 122--124
- |  [] 
- []
-
-[3 <./Slider1.png> <./Slider2.png>]
-<Algorithm.png, id=33, 1459.4525pt x 909.3975pt>
-File: Algorithm.png Graphic file (type png)
- <use Algorithm.png>
-Package pdftex.def Info: Algorithm.png used on input line 128.
-(pdftex.def)             Requested size: 364.86223pt x 227.34882pt.
-
-Overfull \hbox (5.179pt too wide) in paragraph at lines 127--129
- |  [] 
- []
-
-<Saving.png, id=34, 1460.45625pt x 704.6325pt>
-File: Saving.png Graphic file (type png)
- <use Saving.png>
-Package pdftex.def Info: Saving.png used on input line 133.
-(pdftex.def)             Requested size: 365.11317pt x 176.1577pt.
-
-Overfull \hbox (5.42995pt too wide) in paragraph at lines 132--134
- |  [] 
- []
-
-[4 <./Slider3.png> <./Algorithm.png>]
-<LossOfNetwork.png, id=40, 1459.4525pt x 829.0975pt>
-File: LossOfNetwork.png Graphic file (type png)
- <use LossOfNetwork.png>
-Package pdftex.def Info: LossOfNetwork.png used on input line 138.
-(pdftex.def)             Requested size: 364.86223pt x 207.27386pt.
-
-Overfull \hbox (5.179pt too wide) in paragraph at lines 137--139
- |  [] 
- []
-
-<Failures.png, id=41, 1511.6475pt x 941.5175pt>
-File: Failures.png Graphic file (type png)
- <use Failures.png>
-Package pdftex.def Info: Failures.png used on input line 143.
-(pdftex.def)             Requested size: 377.91095pt x 235.3788pt.
-
-Overfull \hbox (18.22772pt too wide) in paragraph at lines 142--144
- |  [] 
- []
-
-[5 <./Saving.png> <./LossOfNetwork.png>] [6 <./Failures.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 249.
+[2 <./Slider1.png>] [3 <./Slider2.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 196.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
- [7] [8] [9]
-(./Hyerus LTD System Requirements.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 196.
+ [4] [5] [6]
+(./Hyreus LTD System Requirements_10_14_17.aux) ) 
 Here is how much of TeX's memory you used:
- 2432 strings out of 492995
- 38237 string characters out of 6132704
+ 2384 strings out of 492995
+ 37665 string characters out of 6132704
  117261 words of memory out of 5000000
- 5952 multiletter control sequences out of 15000+600000
- 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 5916 multiletter control sequences out of 15000+600000
+ 6405 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,6n,39p,743b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Hyerus LTD System Requirements.pdf" (11 pages, 2258970 bytes
-).
+ 48i,5n,39p,876b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Hyreus LTD System Requirements_10_14_17.pdf" (8 pages, 18035
+4 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
