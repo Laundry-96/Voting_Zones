@@ -12,12 +12,36 @@
 \begin{document}
 
 \begin{titlepage}
-	\title{Gerrymander Application: System Requirements}
-	\author{Hyreus LTD.}
-	\date{October 19, 2017}
-	\maketitle
-	\thispagestyle{empty}
-\end{titlepage}
+	\begin{center}
+ 	\line(1,0){300} 
+ 	\huge{ District Modifier: System Requirements Specification} \\
+ 	
+ 	\vspace{1mm} 
+ 	\textsc{\normalsize October 19, 2017}
+ 	
+ 	\vspace{10mm}
+	
+	\hspace*{-2cm}   
+	\includegraphics[scale=.25]{Logo.png}
+
+	\vspace{10mm}
+ 
+ 	\textsc{\normalsize Austin DeLauney \quad Dylan Demchuk \quad Brad Harmening}
+ 	
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Ben Kolarik \quad Damian Overton \quad Jamal Savoy}
+ 
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Customer: Richard Chang}
+ 
+ 
+ 	\thispagestyle{empty}
+ 	
+ \end{center}
+ \end{titlepage}
+
 
 
 
@@ -40,7 +64,7 @@
 
 \begin{addmargin}[4em]{0em}
 
-The purpose of this Systems Requirements document is to be used as a guideline throughout the development of the application. It will list the functional and non-functional requirements of this application and provide detailed information for each requirement. This document will also contain a User Interface section that details the front-end creation of the application. Each deliverable will be listed along with a due date for its submission. Lastly, any open issues will be listed. These issues will be further investigated and discussed as the development process progresses.
+The purpose of this Systems Requirements Specification document is to be used as a guideline throughout the development of the application. It will list the functional and non-functional requirements and their details. There will be a contain an User Interface section that details the front-end creation of the application. Each deliverable will be listed along with a due date for its submission. Lastly, open issues will be listed that will be further investigated and discussed the further the development process goes. It is intended that our System Requirement Specification informs the customer of the goals we intend to accomplish and the dates we will accomplish them. This document is also relevant to our company, as it will be used to keep us on schedule and to remind us of the main requirements of our application.
 
 \end{addmargin}
 
@@ -54,7 +78,8 @@ The purpose of this Systems Requirements document is to be used as a guideline t
 
 \begin{addmargin}[4em]{0em}
 
-[Enter References Here]
+http://bdistricting.com/2010/
+http://www.qgis.org/en/site/
 
 \end{addmargin}
 
@@ -82,9 +107,14 @@ Since the founding of the United States, gerrymandering has been used in order t
 
 \begin{addmargin}[4em]{0em}
 
-This application will be connected to a database that will contain voter information for the state of Maryland. The database will be created to allow room for more states to be added, but we will be specifically be focusing on the state of Maryland. Using research on gerrymandering, we will use Python coding not only to efficiently gerrymander a state, but also to display it on Google Earth. Once displayed, the user will be given the option to use 2 sliders that will greatly effect the gerrymander display. The first slider will decide whether the user wants the map to be more or less gerrymandered. The second slider will decide whether you want the gerrymander to favor republicans or democrats. 
+This application will be connected to a database that will hold voter information on the state of Maryland. The database will be created to allow room for more states to be added, but we will be specifically be focusing on the state of Maryland. Using research on gerrymandering, we will use Python coding to not only to efficiently gerrymander a state, but to display it on QJIS. Once displayed, the user will be given the option to use three sliders that will greatly effect the gerrymander display. The first slider will decide whether the user wants the map to be more or less gerrymandered. The second slider will decide whether you want the gerrymander to favor republicans or democrats. The last slider will allow the user to decide how many districts they desire on their custom map (range is between 10-100).
 
 \end{addmargin}
+
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.15]{Program.png}
+\end{center}
 
 \vspace{2.5mm}
 
@@ -99,65 +129,38 @@ This application will be connected to a database that will contain voter informa
 
 \begin{center}
 \hspace*{-2cm}      
-\includegraphics[scale=.8]{Slider1.png}
+\includegraphics[scale=.25]{Slider1.png}
 \end{center}
-
-
 
 \begin{center}
 \hspace*{-2cm}      
-\includegraphics[scale=.8]{Slider2.png}
+\includegraphics[scale=.25]{Slider2.png}
 \end{center}
 
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.25]{Slider3.png}
+\end{center}
 
-%\begin{table}[h]
-%\centering
-%\setlength\tabcolsep{3pt}
-%\setlength\extrarowheight{2pt}
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.25]{Algorithm.png}
+\end{center}
 
-%\begin{tabular}{| l |  L{6cm}  L{5cm} |}
-%\hline
-%	Number &  1 & \\ \hline
-%	Name &  Slider & \\ \hline
-%	Summary &  This slider &   \\ \hline
-%	Priority &  5  &\\ \hline
-%	Preconditions &  Must have gerrymandering algorithm working  & \\ \hline
-%	Postconditions &  User will be able to determine amount of gerrymandering  &  \\ \hline
-%	Primary Actor &  User &  \\ \hline
-%	Secondary Actors &  Database and User Interface & \\ \hline
-%		Main Scenario: & \multicolumn{1}{ c | }{Step} & Actions \\ \hline 
-%		& \multicolumn{1}{ l | }{1} & 'steps of use case from trigger to goal' \\ \hline 
-%		& \multicolumn{1}{ l | }{2} & 'steps of use case from trigger to goal' \\ \hline 
-%		& \multicolumn{1}{ l | }{3} & 'steps of use case from trigger to goal' \\ \hline 
-		
-%		Extensions: & \multicolumn{1}{ c | }{Step} & Branching Action \\ \hline 
-%		& \multicolumn{1}{ l | }{1a} & 'condition causing branching' \\ \hline 
-%		& \multicolumn{1}{ l | }{1b} & 'condition causing branching' \\ \hline 
-%		& \multicolumn{1}{ l | }{1c} & 'condition causing branching' \\ \hline 
-		%& 1) blah 1 & jjj \  \\ \hline
-		%& 2) blah 2 & jjj \  \\ \hline
-		%& 3) blah 3 & jjj \  \\ \hline
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.25]{Saving.png}
+\end{center}
 
-%	Open Issues & Open issues go here &  \\ \hline
-%\end{tabular}
-%\end{table}
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.25]{LossOfNetwork.png}
+\end{center}
 
-%\begin{table}
-%\centering
-%\caption{Functional Requirement : Example 1}
-
-%\begin{tabular}{ | r | r |} \hline
-%Number & 1 \\ \hline
-%Name & Name1 \\ \hline
-%Summary & QuickDescription \\ \hline
-%Priority & 1-5 \\ \hline
-%Preconditions & PreCond. \\ \hline
-%Postconditions & PostCond. \\ \hline
-%Primary Actor & Actor1 \\ \hline
-%Secondary Actors & Actors etc \\ \hline
-
-%\end{tabular}
-%\end{table}
+\begin{center}
+\hspace*{-2cm}      
+\includegraphics[scale=.25]{Failures.png}
+\end{center}
 
 \end{addmargin}
 
@@ -281,7 +284,7 @@ See attached document.
 
 \begin{addmargin}[2em]{0em}
 
-There are no comments as there were no disagreements. See attached document.
+See attached document.
 
 \end{addmargin}
 
@@ -291,22 +294,7 @@ There are no comments as there were no disagreements. See attached document.
 
 \begin{addmargin}[2em]{0em}
 
-\begin{enumerate}
-
-\item Jamal Savoy : I took ownership over this document so a bulk of the document is my work. After learning LaTex, I created the outline and began filling it out with the information our team discussed with the customer at our first meeting. I worked on all of the sections and would estimate I did around 90\% of the document.
-
-\item Austin DeLauney : 
-
-\item Ben Kolarik : 
-
-\item Brad Harmening : I reviewed the document and made the necessary spelling and grammatical adjustments.
-
-\item Damien Overton : 
-
-\item Dylan Demchuk : 
-
-\end{enumerate}
+See attached document.
 \end{addmargin}
-
 
 \end{document}
