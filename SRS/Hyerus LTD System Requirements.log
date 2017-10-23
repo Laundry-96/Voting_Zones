@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 OCT 2017 12:55
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 OCT 2017 12:12
+>>>>>>> be688cd95c6cc42a8f18d4792fff65c553a971da
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -172,6 +176,7 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+<<<<<<< HEAD
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -185,6 +190,28 @@ Package pdftex.def Info: Logo.png used on input line 25.
 
 Overfull \hbox (7.45164pt too wide) in paragraph at lines 24--26
  []|  [] 
+=======
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
+
+<Logo.png, id=1, 1621.05624pt x 334.24875pt>
+File: Logo.png Graphic file (type png)
+ <use Logo.png>
+Package pdftex.def Info: Logo.png used on input line 23.
+(pdftex.def)             Requested size: 405.26308pt x 83.56198pt.
+
+Overfull \hbox (5.57979pt too wide) in paragraph at lines 22--24
+ |  [] 
+>>>>>>> be688cd95c6cc42a8f18d4792fff65c553a971da
  []
 
 [1
@@ -199,6 +226,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"Hyerus LTD System Requirements.toc"'.
 
+<<<<<<< HEAD
  [1] [1
 
 
@@ -220,6 +248,16 @@ Package pdftex.def Info: Slider1.png used on input line 132.
 (pdftex.def)             Requested size: 363.85849pt x 228.10162pt.
 
 Overfull \hbox (4.17526pt too wide) in paragraph at lines 131--133
+=======
+ [1]
+<Program.png, id=17, 2895.81876pt x 3181.8875pt>
+File: Program.png Graphic file (type png)
+ <use Program.png>
+Package pdftex.def Info: Program.png used on input line 97.
+(pdftex.def)             Requested size: 434.35408pt x 477.26254pt.
+
+Overfull \hbox (34.67079pt too wide) in paragraph at lines 96--98
+>>>>>>> be688cd95c6cc42a8f18d4792fff65c553a971da
  |  [] 
  []
 
@@ -230,6 +268,7 @@ File: Slider2.png Graphic file (type png)
 Package pdftex.def Info: Slider2.png used on input line 137.
 (pdftex.def)             Requested size: 365.3641pt x 229.10538pt.
 
+<<<<<<< HEAD
 Overfull \hbox (5.68088pt too wide) in paragraph at lines 136--138
  |  [] 
  []
@@ -290,10 +329,90 @@ Overfull \hbox (18.22772pt too wide) in paragraph at lines 161--163
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 219.
 
 
+=======
+] <Slider1.png, id=21, 1455.4375pt x 912.40875pt>
+File: Slider1.png Graphic file (type png)
+ <use Slider1.png>
+Package pdftex.def Info: Slider1.png used on input line 113.
+(pdftex.def)             Requested size: 363.85849pt x 228.10162pt.
+
+Overfull \hbox (4.17526pt too wide) in paragraph at lines 112--114
+ |  [] 
+ []
+
+[2 <./Program.png>] <Slider2.png, id=26, 1461.46pt x 916.42375pt>
+File: Slider2.png Graphic file (type png)
+
+<use Slider2.png>
+Package pdftex.def Info: Slider2.png used on input line 118.
+(pdftex.def)             Requested size: 365.3641pt x 229.10538pt.
+
+Overfull \hbox (5.68088pt too wide) in paragraph at lines 117--119
+ |  [] 
+ []
+
+<Slider3.png, id=27, 1508.63625pt x 941.5175pt>
+File: Slider3.png Graphic file (type png)
+ <use Slider3.png>
+Package pdftex.def Info: Slider3.png used on input line 123.
+(pdftex.def)             Requested size: 377.15814pt x 235.3788pt.
+
+Overfull \hbox (17.47491pt too wide) in paragraph at lines 122--124
+ |  [] 
+ []
+
+[3 <./Slider1.png> <./Slider2.png>]
+<Algorithm.png, id=33, 1459.4525pt x 909.3975pt>
+File: Algorithm.png Graphic file (type png)
+ <use Algorithm.png>
+Package pdftex.def Info: Algorithm.png used on input line 128.
+(pdftex.def)             Requested size: 364.86223pt x 227.34882pt.
+
+Overfull \hbox (5.179pt too wide) in paragraph at lines 127--129
+ |  [] 
+ []
+
+<Saving.png, id=34, 1460.45625pt x 704.6325pt>
+File: Saving.png Graphic file (type png)
+ <use Saving.png>
+Package pdftex.def Info: Saving.png used on input line 133.
+(pdftex.def)             Requested size: 365.11317pt x 176.1577pt.
+
+Overfull \hbox (5.42995pt too wide) in paragraph at lines 132--134
+ |  [] 
+ []
+
+[4 <./Slider3.png> <./Algorithm.png>]
+<LossOfNetwork.png, id=40, 1459.4525pt x 829.0975pt>
+File: LossOfNetwork.png Graphic file (type png)
+ <use LossOfNetwork.png>
+Package pdftex.def Info: LossOfNetwork.png used on input line 138.
+(pdftex.def)             Requested size: 364.86223pt x 207.27386pt.
+
+Overfull \hbox (5.179pt too wide) in paragraph at lines 137--139
+ |  [] 
+ []
+
+<Failures.png, id=41, 1511.6475pt x 941.5175pt>
+File: Failures.png Graphic file (type png)
+ <use Failures.png>
+Package pdftex.def Info: Failures.png used on input line 143.
+(pdftex.def)             Requested size: 377.91095pt x 235.3788pt.
+
+Overfull \hbox (18.22772pt too wide) in paragraph at lines 142--144
+ |  [] 
+ []
+
+[5 <./Saving.png> <./LossOfNetwork.png>] [6 <./Failures.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 249.
+
+
+>>>>>>> be688cd95c6cc42a8f18d4792fff65c553a971da
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+<<<<<<< HEAD
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 219.
  [8] [9] [10]
 (./Hyerus LTD System Requirements.aux) ) 
@@ -317,6 +436,31 @@ Output written on "Hyerus LTD System Requirements.pdf" (12 pages, 2262736 bytes
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
+=======
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 249.
+ [7] [8] [9]
+(./Hyerus LTD System Requirements.aux) ) 
+Here is how much of TeX's memory you used:
+ 2432 strings out of 492995
+ 38237 string characters out of 6132704
+ 117261 words of memory out of 5000000
+ 5952 multiletter control sequences out of 15000+600000
+ 7895 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,6n,39p,743b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb>
+Output written on "Hyerus LTD System Requirements.pdf" (11 pages, 2258970 bytes
+).
+PDF statistics:
+ 83 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
+>>>>>>> be688cd95c6cc42a8f18d4792fff65c553a971da
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
