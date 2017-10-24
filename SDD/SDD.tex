@@ -43,6 +43,12 @@
  	
  \end{center}
  \end{titlepage}
+ 
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+
+\setcounter{page}{1}
 
 \section{Introduction}\label{sec:intro}
 
@@ -60,7 +66,7 @@ The purpose of this software design document is to specify the low-level abstrac
 
 \vspace{2.5mm}
 
-\section{System Architecture}
+\section{System Architecture}\label{sec:sysArch}
 \subsection{Architectural Design}
 
 \vspace{2.5mm}
@@ -102,6 +108,52 @@ Takes the data passed into it from the User Interface to Compute Algorithm, and 
 \subsection{Compute Algorithm}
 Redistricts based off the information from the slider. This is probably the most taxing part, as it has to find the best path to take.
 
+\section{Persistent Data Design}
+\subsection{Database Descriptions}
+None
+
+\subsection{File Descriptions}
+\vspace{2.5mm}
+\begin{center}
+\includegraphics[scale=1]{Csv_data.png}
+\end{center}
+\vspace{2.5mm}
+
+We will be using a Cencus block data file, with the block ID, the population of that block, and percent democrat in that block.
+Block ID will be the unique ID of the block which is an integer, population of the block which is an integer, and percent democrat which will be a float
+
+\section{Requirements Matrix}
+\vspace{2.5mm}
+\begin{center}
+\includegraphics[scale=.11]{Requirements.png}
+\end{center}
+\vspace{2.5mm}
+
+\section{Appendix A - Agreement Between Customer and Contractor}
+Please see attached document
+\section{Appendix B - Team Review Sign-off}
+Please see attached document
+\section{Appendix C - Document Contributions}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+\begin{enumerate}
+
+\item Jamal Savoy : Printed it out and reviewed ~ 1\%
+
+\item Austin DeLauney : Wrote all of the paper ~ 95\%
+
+\item Ben Kolarik : Reviewed ~ 1\%
+
+\item Brad Harmening : Reviewed ~ 1\%
+
+\item Damien Overton : Reviewed ~ 1\%
+
+\item Dylan Demchuk : Reviewed ~ 1\%
+
+\end{enumerate}
+\end{addmargin}
 \end{document}
 	
 	
