@@ -1,0 +1,155 @@
+
+\documentclass{article}
+
+\usepackage{indentfirst}
+\usepackage{scrextend}
+\usepackage{changepage}
+\usepackage{array,multirow}
+\usepackage{graphicx}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\begin{document}
+
+\begin{titlepage}
+
+	\begin{center}
+ 	\line(1,0){300} 
+ 	\huge{ District Modifier: User Interface Design Document} \\
+ 	
+ 	\vspace{1mm} 
+ 	\textsc{\normalsize October 24, 2017}
+ 	
+ 	\vspace{10mm}
+	
+	\hspace*{-2cm}   
+	\includegraphics[scale=.25]{Logo.png}
+
+	\vspace{10mm}
+ 
+ 	\textsc{\normalsize Austin DeLauney \quad Dylan Demchuk \quad Brad Harmening}
+ 	
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Ben Kolarik \quad Damian Overton \quad Jamal Savoy}
+ 
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Customer: Richard Chang}
+ 
+ 
+ 	\thispagestyle{empty}
+ 	
+ \end{center}
+ \end{titlepage}
+ 
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+
+\setcounter{page}{1}
+
+\section{Introduction}\label{sec:intro}
+
+\subsection{Purpose of This Document}
+
+\vspace{2.5mm}
+
+
+The purpose of this software design document is to specify the user facing section of District Modifier, which allows understanding how the product will appear when in use. It also serves as an aggrement between Hyreus Ltd. and the customer in how the user interface will appear. 
+
+
+\vspace{2.5mm}
+
+\subsection{References}
+
+http://www.esri.com/library/whitepapers/pdfs/shapefile.pdf
+http://doc.qt.io/qtcreator/
+
+\vspace{2.5mm}
+
+\section{User Interface Standards}
+
+A user will start the application and view a selection of maps for areas they wish to district.  These maps will contain a thumbnail of a map, and a name, such as Maryland, or Britain.  Clicking on one of these maps will display a window with a larger version of the map.   
+
+This window will contain a large image of the map.  To its right,  there will be three sliders.  These sliders will manipulate the values of certain values for the algothirm.  These will changes the appearance of the map.
+
+\vspace{2.5mm}
+
+\section{User Interface Walkthrough}
+A user can move from any map, back to the central window that contains the maps, and back to any map from there.
+
+\vspace{10mm}
+	
+\hspace*{5mm}   
+\includegraphics[scale=1]{mainWin.png}
+
+\vspace{5mm}
+
+
+This is the central window, which contains the various maps.  Clicking on any of the images will bring you to the window that views that map.
+
+\vspace{10mm}
+	
+\hspace*{5mm}   
+\includegraphics[scale=.7]{mapWin.png}
+
+\vspace{5mm}
+
+This is a sample map.  Here you can adjust the sliders in order to set up the parameters you want the map districted to.  When you press the "Create" button, the image of the map will change to indicate how the new districts your parameters asked for will appear.
+\section{Data Validation}
+User inputs will consist of button pressing and integer values from the sliders.  Users will also be able to upload their own shape files for districting.  The sliders will be described here.
+
+\subsection{Slider 1: Compactness}
+
+The first slider will be a slider for compactness.  Districts with more compactness will have more parts that border each other, making for more sensible maps.  This will be an integer value from 0 to 100.  Due to its format as a slider, it will be impossible for a user to iput a value out of that range.  0 will be least compact and 100 will be most compact.
+
+\subsection{Slider 2: Party Bias}
+
+The second slider will be a slider for party bias.  The bias slider will try to make the Republician percentage equal to its value, so that moving the slider right also moves the state politically to the right and moving the slider to the left moves the state to the left.  This will be an integer value from 0 to 100. Due to its format as a slider, it will be impossible for a user to input a value out of that range.  0 will be as many Democratic party districts as possible, and right will be as many Republican districts as possible.
+
+\subsection{Slider 3: District Number}
+
+The third slider will indicate the number of districts.  The district number slider will indicate the number of districts the algothirm should create.  This will be an integer value from 10 to 100.  Due to its format as a slider, it will be impossible for a user to input a value out of that range.
+
+\subsection{Shapefiles}
+
+In addition, users can upload shape files.  These files should follow the requirements of the shape file format, as regulated by Esri.  In particular(add later).
+
+
+
+
+
+
+
+
+
+
+
+\section{Appendix A - Agreement Between Customer and Contractor}
+Please see attached document
+\section{Appendix B - Team Review Sign-off}
+Please see attached document
+\section{Appendix C - Document Contributions}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+\begin{enumerate}
+
+\item Jamal Savoy : Reviewed ~ 1\%
+
+\item Austin DeLauney : Reviewed ~ 1\%
+
+\item Ben Kolarik : Wrote the document ~ 95\%
+
+\item Brad Harmening : Reviewed ~ 1\%
+
+\item Damien Overton : Reviewed ~ 1\%
+
+\item Dylan Demchuk : Reviewed ~ 1\%
+
+\end{enumerate}
+\end{addmargin}
+\end{document}
