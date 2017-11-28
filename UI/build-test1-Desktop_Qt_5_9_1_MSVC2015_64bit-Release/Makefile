@@ -254,8 +254,11 @@ Makefile: ..\test1\test1.pro ..\..\..\..\Qt\5.9.1\msvc2015_64\mkspecs\win32-msvc
 		..\..\..\..\Qt\5.9.1\msvc2015_64\mkspecs\features\lex.prf \
 		..\test1\test1.pro \
 		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\qtmain.prl \
+		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5MultimediaWidgets.prl \
 		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Widgets.prl \
+		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Multimedia.prl \
 		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Gui.prl \
+		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Network.prl \
 		..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Core.prl
 	$(QMAKE) -o Makefile ..\test1\test1.pro -spec win32-msvc
 ..\..\..\..\Qt\5.9.1\msvc2015_64\mkspecs\features\spec_pre.prf:
@@ -437,8 +440,11 @@ Makefile: ..\test1\test1.pro ..\..\..\..\Qt\5.9.1\msvc2015_64\mkspecs\win32-msvc
 ..\..\..\..\Qt\5.9.1\msvc2015_64\mkspecs\features\lex.prf:
 ..\test1\test1.pro:
 ..\..\..\..\Qt\5.9.1\msvc2015_64\lib\qtmain.prl:
+..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5MultimediaWidgets.prl:
 ..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Widgets.prl:
+..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Multimedia.prl:
 ..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Gui.prl:
+..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Network.prl:
 ..\..\..\..\Qt\5.9.1\msvc2015_64\lib\Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\test1\test1.pro -spec win32-msvc

@@ -13,6 +13,7 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
@@ -29,6 +30,7 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QPushButton *pushButton;
+    QGraphicsView *graphicsView;
     QMenuBar *menuBar;
     QMenu *menuGerryMander_Testing;
     QToolBar *mainToolBar;
@@ -38,16 +40,19 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(400, 300);
+        MainWindow->resize(634, 481);
         centralWidget = new QWidget(MainWindow);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(10, 10, 93, 28));
+        pushButton->setGeometry(QRect(170, 360, 191, 28));
+        graphicsView = new QGraphicsView(centralWidget);
+        graphicsView->setObjectName(QStringLiteral("graphicsView"));
+        graphicsView->setGeometry(QRect(40, 50, 491, 291));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 400, 26));
+        menuBar->setGeometry(QRect(0, 0, 634, 26));
         menuGerryMander_Testing = new QMenu(menuBar);
         menuGerryMander_Testing->setObjectName(QStringLiteral("menuGerryMander_Testing"));
         MainWindow->setMenuBar(menuBar);
@@ -68,7 +73,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MainWindow", "Open a Map", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("MainWindow", "Maryland Map", Q_NULLPTR));
         menuGerryMander_Testing->setTitle(QApplication::translate("MainWindow", "GerryMander Testing", Q_NULLPTR));
     } // retranslateUi
 
