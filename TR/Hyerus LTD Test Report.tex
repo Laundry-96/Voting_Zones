@@ -1,0 +1,214 @@
+\documentclass{article}
+
+\usepackage{indentfirst}
+\usepackage{scrextend}
+\usepackage{changepage}
+\usepackage{array,multirow}
+\usepackage{graphicx}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\begin{document}
+
+\begin{titlepage}
+
+	\begin{center}
+ 	\line(1,0){300} 
+ 	\huge{ District Modifier: Testing Report} \\
+ 	
+ 	\vspace{1mm} 
+ 	\textsc{\normalsize December 4, 2017}
+ 	
+ 	\vspace{10mm}
+	
+	\hspace*{-2cm}   
+	\includegraphics[scale=.25]{Logo.png}
+
+	\vspace{10mm}
+ 
+ 	\textsc{\normalsize Austin DeLauney \quad Dylan Demchuk \quad Brad Harmening}
+ 	
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Ben Kolarik \quad Damian Overton \quad Jamal Savoy}
+ 
+ 	\vspace{2mm}
+ 	
+ 	\textsc{\normalsize Customer: Richard Chang}
+ 
+ 
+ 	\thispagestyle{empty}
+ 	
+ \end{center}
+ \end{titlepage}
+
+
+
+
+\tableofcontents
+\thispagestyle{empty}
+\cleardoublepage
+
+\setcounter{page}{1}
+
+
+%%%% Introduction %%%%
+
+\section{Introduction}\label{sec:intro}
+
+%%%% Purpose of This Document %%%%
+
+\subsection{Purpose of This Document}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[4em]{0em}
+
+The purpose of this District Modifier Testing Report document is to provide the customer with a summary of the results of testing performed as outlined within this document.  This document will detail the testing process followed by Hyreus Ltd. This will include tests used, the testing sessions, and our impressions of the process.  Finally, this document will provide the results obtained from the testing process.
+
+\end{addmargin}
+
+\vspace{2.5mm}
+
+%%%% References %%%%
+
+\subsection{References}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[4em]{0em}
+
+http://bdistricting.com/2010/\newline
+http://www.qgis.org/en/site/
+
+\end{addmargin}
+
+\vspace{2.5mm}
+
+%%%% Testing Process %%%%
+
+\section{Testing Process}\label{sec:testingProcess}
+
+%%%% Description %%%%
+\subsection{Description}
+
+\vspace{2.5mm}
+
+
+\begin{addmargin}[2em]{0em}
+\begin{enumerate}
+	
+The testing process followed by Hyreus Ltd.  Has been an ongoing one that started at the beginning of the project and will run until the final presentation of the project to the customer.  In order to ensure that the project has been well tested, the team has followed a process of incremental unit testing.  In this process, each component of the final project is tested individually throughout its development by the developer.  This ensured that each component of the project met the lowest level requirements of that component.
+\newline
+\newline 
+In addition to the incremental unit testing, black box integration testing was also done to the system upon completion.  The black box testing was performed on multiple aspects of the system.  This black box testing allowed the system to be tested once the components were put together.  
+
+\end{enumerate}
+\end{addmargin}
+
+%%%% Testing Sessions %%%%
+
+\subsection{Testing Sessions}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+\begin{enumerate}
+	\item Session 1\newline
+	Date: October 24, 2017\newline
+	Location: Retriever Learning Center\newline
+	Time Started: 1:00pm\newline
+	Time Ended: 2:30pm\newline
+	Tester(s): Brad Harmening, Dylan Demchuk, Jamal Savoy, Austin Delauney, Ben Kolarik, Damian Overton\newline
+	Use Cases: Each component was tested with the use case where the data from the district modifier algorithm was output into a shape file. \newline
+	
+	\item Session 2\newline
+	Date: October 25, 2017\newline
+	Location: Retriever Learning Center\newline
+	Time Started: 1:00pm\newline
+	Time Ended: 2:00pm\newline
+	Tester(s): Ben Kolarik, Damian Overton\newline
+	Use Case: The UI was tested with the cases where the data was output from the district modifier algorithm as a pdf, a png, and a jpeg to determine the best format.\newline
+	
+	\item Session 3\newline
+	Date: November 16, 2017\newline
+	Location: Retriever Learning Center\newline
+	Time Started: 3:00pm\newline
+	Time Ended: 5:00pm\newline
+	Tester(s): Brad Harmening, Jamal Savoy, Austin Delauney\newline
+	Use Case: Tested various inputs for the neighbors algorithm in both C++ and rust
+	
+	\item Session 4\newline
+	Date: November 21, 2017\newline
+	Location: Retriever Learning Center\newline
+	Time Started: 3:00pm\newline
+	Time Ended: 5:00pm\newline
+	Tester(s): Brad Harmening, Dylan Demchuk, Jamal Savoy, Austin Delauney, Ben Kolarik, Damian Overton\newline
+	Use Case: Tested various use cases on the district modifier algorithm.\newline
+	
+	\item Session 5\newline
+	Date: November 28, 2017\newline
+	Location: Retriever Learning Center\newline
+	Time Started: 3:00pm\newline
+	Time Ended: 5:00pm\newline
+	Tester(s): Brad Harmening, Dylan Demchuk, Jamal Savoy, Austin Delauney, Ben Kolarik, Damian Overton\newline
+	Use Case: Tested various use cases on the system as a whole.\newline
+	
+\end{enumerate}
+\end{addmargin}
+
+%%%% Impressions of the Process %%%%
+\subsection{Impressions of the Process}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+	Our impression of the testing process used is that it was an effective process.  Due to the time constraints  and the amount of code needed to meet the requirements of this project, this process of incremental unit testing allowed for more testing to be accomplished on each component of the project.  This process offered time for the developer of each component to find and fix bugs in their code while waiting for the remainder of the project to be completed.  In addition, the black box testing that was done with all of the components put together allowed for compatability adjustements to be made as well as more bugs to be found and fixed.\newline
+	\newline
+	Prior to testing each component, the code was very bulky, had many bugs, and was incompatible with other components. However, after many testing sessions, each developer was able to better polish their code and, remove bugs, and make their code more compatible with the rest of the project.  The modular unit in the program with the least potential for remaining flaws is the user interface. The user interface has been tested vigorously.  The modular unit in the program with the most likelihood of remaining flaws is the district modifier algorithm as we have been experiencing some strange output from it during testing.\newline 
+\end{addmargin}
+
+
+%%%% Test Results %%%%
+\vspace{2.5mm}
+\section{Test Results}\label{sec:testResults}
+
+\vspace{2.5mm}
+
+
+%%%% Appendix %%%%
+
+\section{Appendix B - Team Review Sign-Off}\label{sec:appendixB}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+
+See attached document.
+
+\end{addmargin}
+
+\section{Appendix C - Document Contributions}\label{sec:appendixC}
+
+\vspace{2.5mm}
+
+\begin{addmargin}[2em]{0em}
+\begin{enumerate}
+
+\item Jamal Savoy : 
+
+\item Austin DeLauney : 
+
+\item Ben Kolarik : 
+
+\item Brad Harmening : I took ownership over this document so a bulk of the document is my work. I worked on all of the sections and would estimate I did around 90\% of the document.
+
+\item Damien Overton : 
+
+\item Dylan Demchuk : 
+
+\end{enumerate}
+\end{addmargin}
+
+\end{document}
